@@ -1,0 +1,35 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+#left-side{
+    width: 20%;
+    padding-top: 3rem;
+    padding-left: 3rem;
+}
+#right-side{
+    width: 80%;
+    background-color: rgb(216, 213, 213);
+}
+
+.cloth-size{
+    font-weight: 700;
+}
+
+.cloth-size-tag{
+    display: flex;
+    gap: 20px;
+}
+
+.custom-checkbox{
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+}

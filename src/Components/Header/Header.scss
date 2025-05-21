@@ -1,0 +1,23 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  
+    .cartIcon {
+      position: relative;
+      cursor: pointer;
+  
+      span {
+        background: yellow;
+        color: black;
+        padding: 2px 6px;
+        border-radius: 50%;
+        font-size: 14px;
+        position: absolute;
+        top: -10px;
+        right: -10px;
+      }
+    }
+  }
+  
